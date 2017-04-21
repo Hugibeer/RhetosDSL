@@ -1,5 +1,16 @@
 Module SomeModule
 {
+    SqlQueryable SomeView
+    "
+        SELECT
+            CcurrentDate = GETDATE(),
+            HomeTown = 'Zagreb'
+    "
+    {
+        DateTime CcurrentDate;
+        ShortString HomeTown;
+    }
+
     Action SomeAction
     '(parameter, repository, userInfo) =>
     {
