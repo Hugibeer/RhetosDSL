@@ -1,0 +1,30 @@
+{
+    "name": "rhetosdsl",
+    "displayName": "RhetosDSL",
+    "description": "Rhetos syntax",
+    "version": "0.0.1",
+    "publisher": "Hugibeer",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rhetos",
+            "aliases": ["Rhetos", "rhetos"],
+            "extensions": [".rhe",".alpha"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rhetos",
+            "scopeName": "source.rhe",
+            "path": "./syntaxes/rhetos.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "rhetos",
+            "path": "./snippets/rhetos.json"
+        }]
+    }
+}

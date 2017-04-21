@@ -1,0 +1,26 @@
+{
+    "Create module": {
+        "prefix": "mod",
+        "body": [
+            "Module ${1:ModuleName}",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description": "Create a module"
+    },
+    "Action": {
+        "prefix": "Action",
+        "body": [
+            "Action ${1:ActionName}",
+            "'(parameter, repository, userInfo) =>",
+            "{",
+            "\t",
+            "}'",
+            "{",
+            "\t$0",
+            "}"
+        ],
+        "description": "Fire and forget POST action"
+    }
+}
