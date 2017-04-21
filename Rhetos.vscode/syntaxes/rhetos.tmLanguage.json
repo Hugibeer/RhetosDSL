@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#sql"
+		},
+		{
+			"include": "#csharp"
 		}
 	],
 	"repository": {

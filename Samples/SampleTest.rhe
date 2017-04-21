@@ -1,0 +1,11 @@
+Module SomeModule
+{
+    Action SomeAction
+    '(parameter, repository, userInfo) =>
+    {
+        
+    }'
+    {
+        ShortString SomeParameter;
+    }
+}
