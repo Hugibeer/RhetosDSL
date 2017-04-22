@@ -1,5 +1,6 @@
 Module SomeModule
 {
+    // some comment about queryable
     SqlQueryable SomeView
     "
         SELECT
@@ -13,8 +14,7 @@ Module SomeModule
 
     Action SomeAction
     '(parameter, repository, userInfo) =>
-    {
-        
+    {        
     }'
     {
         ShortString SomeParameter;
